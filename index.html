@@ -31,8 +31,16 @@
     html { scroll-behavior: smooth; }
 
     
-    body {
-  background: url("assets/images/fondo.webp") center center / cover no-repeat;
+   body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+
+  background:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("assets/images/fondo.webp") center center / cover no-repeat;
+
+  background-attachment: fixed;
     }
 
     a { text-decoration: none; color: inherit; }
